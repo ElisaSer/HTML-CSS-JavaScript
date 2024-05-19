@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;                 
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+#checkbox{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+}
+#container{
+    border: 6px solid brown;
+    width: 500px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10%;
+    background-color: rgb(246, 237, 221);
+}
+#responsiveDiv{
+    background-color: orange;
+    font-size: 25px;
+    height: 55px;
+    width: 100% ;
+    padding: 20px;
+}
+#botCont{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#sconto{
+    margin: 10px;
+}
+
+#prezzo{
+    height: 200px;
+    justify-content: space-around;
+    margin: 30px;
+    margin-top: 50px;
+
+}
+img{
+    margin-left: 260px;
+    margin-bottom: auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+button{
+    border-radius: 5%;
+    height: 30px;
+    width: 80px;
+    border-bottom: 1px solid gray;
+    background-color: orange;
+}
+#CS{
+    padding: 8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%;
+    border-radius: 5px;
+
+}
+p{
+    font-size: 20px;
+}
+#incrementBtn,#decrementBtn{
+    height: 15px;
+    width: 15px;
+}
+
+

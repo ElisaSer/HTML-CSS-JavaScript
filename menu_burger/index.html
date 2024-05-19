@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="responsiveDiv"><strong>Benvenut*, <span id="nome"></span> </strong></div>
+        <div id="checkbox">
+            <div id="gr1">
+            <ol>
+                <li>
+                    <input type="checkbox" id="Ingrediente 1" name="Ingrediente 1" value="1.00">
+                    <label for="Ingrediente 1"> Insalata</label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="Ingrediente 2" name="Ingrediente 2" value="1.50">
+                    <label for="Ingrediente 2"> Pomodori</label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="Ingrediente 3" name="Ingrediente 3" value="2.50">
+                    <label for="Ingrediente 3"> Bacon</label><br>
+                </li>
+                
+                <!-- <li>
+                    <input type="button">
+                    <button id="incrementBtn">+</button>
+                    <button id="decrementBtn">-</button>
+                </li> -->
+                
+            </ol>
+            </div>
+            <div id="gr2">
+            <ol>
+                <li>
+                    <input type="checkbox" id="Ingrediente 4" name="Ingrediente 4" value="0.50">
+                    <label for="Ingrediente 4"> Cetriolini</label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="Ingrediente 5" name="Ingrediente 5" value="1.00">
+                    <label for="Ingrediente 5"> Cheddar</label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="Ingrediente 6" name="Ingrediente 6" value="0.50">
+                    <label for="Ingrediente 6"> Maionese</label><br>
+                </li>
+            </ol>
+            </div>
+        </div>
+        <div id="botCont">
+        <div id="sconto">
+            <p>Inserisci codice sconto</p>
+            <input type="text" id="CS">
+        </div>
+        <div id="containerCheckOut">
+            <button type="button" id="out">Checkout</button>
+            <button type="button" id="reset">Reset</button>
+        </div>
+        </div>
+        <div id="prezzo">
+            <p>Prezzo Totale : <span id="tot"></span></p>
+            <p>Sconto : <span id="sc"></span></p>
+            <p>Prezzo Finale : <span id="final"></span></p>
+            <img src="images.png" alt="er paninozzo">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
